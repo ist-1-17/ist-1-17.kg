@@ -1,0 +1,120 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>ZHUMUSH.KG</title>
+<link href="css/jum.css" rel="stylesheet" type="text/css"/>
+</head>
+<body ng-controller="purchaseController">
+<header>
+<div id="a1"> 
+<h5 class="a2">zhm.kg</h5>
+</div>
+<div>
+<div class="j1">
+     <a id="aa" href="index.html">Продажа машина</a>
+     <a id="aa1" href="a2.html">Покупка машина</a>
+	 <a id="aa2" href="a3.html">Помощ сайт</a>
+
+	 <a id="aa4" href="a5.html">Проект</a>
+	 <a id="aa5" href="a6.html">Регистрация</a>
+</header>
+<br>
+<div id="www">
+<div class="aa">
+<details>  
+<summary><u>Марка</u></summary>
+<ul class="de1">
+<li>Мерс</li>
+<li>Хонда</li>
+<li>Тайота</li>
+<li>Ауди</li>
+<li>Субару</li>
+<ul/>
+</details>
+  </div>
+  <div id="aaa">
+  <p class="sattext"></p>
+  <table>
+  <tr> 
+<td> <div class="Person1" ng-repeat="item in list.items">
+	<img class="ad1" src="img/rrrrr.jpg">
+	<div class="as1">
+	<p><b id="aq1">Модель:</b> Мерседес бенз</p>
+	<p><b id="aq1">Цена::</b> 15 000$</p>
+	<p><b id="aq1">Телефон:</b> 0707 890 767</p>
+	</div>
+</div> </td>
+<td> <div class="aa2" >
+	<img class="ad1" src="img/inj.jpg">
+	<div class="as1">
+	<p><b id="aq1">Модель:</b>Хонда Одиссей</p>
+	<p><b id="aq1">Цена:</b> 5 000$</p>
+	<p><b id="aq1">Телефон:</b> 0501 888 707</p>
+	</div>
+</div> </td>
+<td> <div class="aa3" >
+<img class="ad1" src="img/tech.jpg">
+<div class="as1">
+	<p><b id="aq1">Модель:</b>Тайота камри</p>
+	<p><b id="aq1">Цена::</b> 20 000$</p>
+	<p><b id="aq1">Телефон:</b> 0778 583 935</p>
+</div>
+</div> </td>
+<td> <div class="aa4" >
+<img class="ad1" src="img/shi.jpg">
+<div class="as1">
+	<p><b id="aq1">Модель:</b>Тигуучу</p>
+	<p><b id="aq1">Цена:</b> 10 000</p>
+	<p><b id="aq1">Телефон:</b> 0705 676 776</p>
+</div>
+</div> </td>
+  </tr>
+  <tr>
+<td> <div class="Person1" ng-repeat="item in list.items">
+	<img class="ad1" src="img/sv.jpg">
+	<div class="as1">
+	<p><b id="aq1">Модель:</b>Сварщик</p>
+	<p><b id="aq1">Цена:</b>18 000</p>
+	<p><b id="aq1">Телефон:</b> 0555 567 867</p>
+	</div>
+</div> </td>
+<td> <div class="Person1" ng-repeat="item in list.items">
+	<img class="ad1" src="img/buh.jpg">
+	<div class="as1">
+	<p><b id="aq1">Модель:</b>Бухгалтер</p>
+	<p><b id="aq1">Цена:</b>16 000</p>
+	<p><b id="aq1">Телефон:</b>0222 567 975</p>
+	</div>
+</div> </td>
+<td> <div class="Person1" ng-repeat="item in list.items">
+	<img class="ad1" src="img/tr.jpg">
+	<div class="as1">
+	<p><b id="aq1">Модель:</b>Котормочу</p>
+	<p><b id="aq1">Цена:</b>20 000</p>
+	<p><b id="aq1">Телефон:</b>708 678 879</p>
+	</div>
+</div> </td>
+<td> <div class="Person1" ng-repeat="item in list.items">
+	<img class="ad1" src="img/rr.jpg">
+	<div class="as1">
+	<p><b id="aq1">Модель:</b>Шофер</p>
+	<p><b id="aq1">Цена:</b>11 000</p>
+	<p><b id="aq1">Телефон:</b> 0505 677 980</p>
+	</div>
+</div> </td>
+  </tr>
+  </table>
+  </div> 
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<script>
+var model = {
+	items: [
+		{a: "seller", b: 20000, c: "709 990 128"}
+	
+	]
+};
+</script>
+ </body>
+</html>
